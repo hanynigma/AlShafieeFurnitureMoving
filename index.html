@@ -9,6 +9,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WL34MTKB');</script>
 <!-- End Google Tag Manager -->
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1001971119"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1001971119');
+</script>
+
+ <!-- Event snippet for الشافعي بخيت conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-1001971119/pS5wCM2x1sIZEK-7490D',
+      'value': 1.0,
+      'currency': 'EGP',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
   
 <title>شركة الشافعي لنقل الموبيليا</title>
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
